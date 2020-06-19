@@ -1,0 +1,127 @@
+@font-face{
+  font-family: 'Varela';
+  src: url(font.woff2);
+  font-display: swap;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.container{
+box-shadow: none;
+  background-color: transparent;
+  margin-bottom: 1em;
+}
+html{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar{
+  width: 0px;
+}
+body{
+  font-family: 'Varela', sans-serif;
+  font-display: swap;
+ font-weight: 165;
+  background-color: #212121;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+section{
+      color: #d8dce3;
+border-radius: 14px;
+box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+background: #27292b;
+  margin: 0 auto;
+  font-size: 19px;
+ font-weight: 165;
+ margin-top: 1em;
+ width: 98%;
+ max-width: 600px;
+ animation: scale-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+img {
+    width: 126px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -.6em;
+    margin-left:0;
+    height: 126px;
+}
+i{
+padding: 0.35em;
+  font-size: 31px;
+  display: inline-block;
+  outline: 1px;
+  margin-bottom: 0.25em;
+  margin-right: 1.6em;
+  margin-left: 1.6em;
+  font-family: 'icons';
+}
+a{
+  text-decoration: none;
+  color: #4ec2ed;
+}
+h1{
+ padding-top: 0.5em;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 31px;
+  font-weight: 185;
+  margin-bottom: 0.4em;
+}
+h2, h3, h4, h5{
+  padding-top: 0.5em;
+  font-size: 28px;
+  font-weight: 175;
+  margin-bottom: 0.4em;
+}
+ul {
+  list-style-position: inside;
+  display:inline-block;
+	text-align:left;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+a:hover{
+ color: #8fe1ff;
+ text-decoration: none;
+}
+a:active{
+  color: #26c5ff;
+}
