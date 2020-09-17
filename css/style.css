@@ -100,12 +100,11 @@ a{
 h1{
  padding-top: 0.5em;
   padding-left: 0;
-  margin-left: 0;
-  margin-right: 0;
   font-size: 28px;
   font-weight: 185;
-  margin-bottom: 0.2em;
   text-align: center;
+ margin: 0 auto;
+ padding-bottom: 0.3em
 }
 ul {
   list-style-position: inside;
@@ -121,10 +120,9 @@ a:hover{
 a:active{
   color: #26c5ff;
 }
-p{
+.para{
   margin-left: auto;
   margin-right: auto;
-  padding: 0.6em;
   text-align: center;
   overflow-wrap: break-word;
 }
@@ -132,5 +130,7 @@ h3{
   font-size: 22px;
   font-weight: 130
 }
-ttom: 0.6em;
+p{
+ margin: 0;
+ padding: 0.6em;
 }
