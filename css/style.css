@@ -124,6 +124,7 @@ a:active{
 p{
   margin-left: auto;
   margin-right: auto;
+  padding: 0.25em;
 }
 h3{
   font-size: 22px;
