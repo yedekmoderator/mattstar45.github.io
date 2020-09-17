@@ -124,12 +124,13 @@ a:active{
 p{
   margin-left: auto;
   margin-right: auto;
-  padding: 0.25em;
+  padding: 0.6em;
+  text-align: center;
+  overflow-wrap: break-word;
 }
 h3{
   font-size: 22px;
   font-weight: 130
 }
-.lastelement{
-  padding-bottom: 0.6em;
+ttom: 0.6em;
 }
