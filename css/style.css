@@ -73,13 +73,13 @@ background: #27292b;
   }
 }
 img {
-    width: 140px;
+    width: 160px;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 0.1em;
     margin-bottom: -0.1em;
     margin-left: 0;
-    height: 140px;
+    height: 160px;
 }
 .singleliner{
   text-align: center;
@@ -95,7 +95,7 @@ i{
 }
 a{
   text-decoration: none;
-  color: #4ec2ed;
+  color: #ed804e;
 }
 h1{
  padding-top: 0.5em;
@@ -114,11 +114,11 @@ ul {
   margin-top: 0.2em;
 }
 a:hover{
- color: #8fe1ff;
+ color: #ffa47a;
  text-decoration: none;
 }
 a:active{
-  color: #26c5ff;
+  color: #ff6726;
 }
 .para{
   margin-left: auto;
