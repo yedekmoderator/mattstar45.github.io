@@ -89,8 +89,7 @@ i{
   display: inline-block;
   outline: 1px;
   margin-bottom: 0.45em;
-  margin-right: 1.6em;
-  margin-left: 1.6em;
+  width: 131px;
   font-family: 'icons';
 }
 a{
@@ -127,7 +126,7 @@ a:active{
   text-align: center;
   overflow-wrap: break-word;
 }
-h3{
+h2{
   font-size: 22px;
   font-weight: 130
 }
