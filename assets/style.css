@@ -92,7 +92,7 @@ i{
 a{
   text-decoration: none;
  /*  color: #ed4e4e; */
-  color: #ed804e;
+  color: #4ee2ed;
 }
 h1{
  padding-top: 0.5em;
@@ -111,17 +111,11 @@ ul {
   margin-top: 0.2em;
 }
 a:hover{
- color: #ffa47a;
+ color: #94e9ef;
  text-decoration: none;
 }
 a:active{
-  color: #ff6726;
-}
-.para{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  overflow-wrap: break-word;
+  color: #26fbff;
 }
 h2{
   font-size: 22px;
@@ -130,4 +124,8 @@ h2{
 p{
  margin: 0;
  padding: 0.6em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  overflow-wrap: break-word;
 }
